@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">AlzGuard</string>
+    <string name="login">Connexion</string>
+    <string name="email">example@gmail.com</string>
+    <string name="password">******</string>
+    <string name="repassword">Répéter le mot de passe</string>
+    <string name="register" tools:ignore="StringEscaping">Inscription</string>
+    <string name="already_user">Vous avez déjà un compte? S\'identifier</string>
+    <string name="not_registred">êtes-vous un nouvel utilisateur ? Enregistrer</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="phone">+212 --- --- ---</string>
+    <string name="adresse">Adresse de la maison</string>
+    <string name="nom">Nom complet</string>
+
+
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="find_users_location">find users location</string>
+
+
+    <string name="qr_code">qr_code</string>
+    <string name="enter_your_info">Enter your info</string>
+    <string name="generate_qr_code">Generate QR Code</string>
+
+
+    <string name="toggle_flash">Toggle Flash</string>
+    <string name="action_settings">Settings</string>
+    <string name="scanned_data">Scanned Data</string>
+
+
+</resources>

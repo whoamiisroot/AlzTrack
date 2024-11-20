@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f7f8"
+    tools:context=".AppP">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+
+        android:background="@drawable/frame_drawable">
+
+    <!--We are using this image
+        view to display our QR code-->
+    <ImageView
+        android:id="@+id/idIVQrcode"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+
+        android:contentDescription="@string/qr_code" />
+
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_marginTop="700dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/arrow_right"/>
+
+
+</RelativeLayout>

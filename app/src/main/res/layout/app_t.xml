@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f7f8"
+    tools:context=".AppT">
+
+    <!--Frame layout is required as we are using camera view-->
+    <!--Below is the scannerliveview which will scan QR code-->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/frame_drawable">
+    <eu.livotov.labs.android.camview.ScannerLiveView
+        android:id="@+id/camview"
+        android:layout_marginTop="10dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_margin="0dp"
+        android:layout_gravity="center_horizontal"/>
+    </FrameLayout>
+
+
+
+    <ImageView
+        android:id="@+id/arrowright"
+        android:layout_marginTop="700dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/arrow_right"/>
+
+    <!--TextView to display the scanned data
+    <TextView
+        android:id="@+id/idTVscanned"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:padding="5dp"
+        android:text="@string/scanned_data"
+        android:textColor="@color/black" />-->
+
+</RelativeLayout>
